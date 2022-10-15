@@ -1,0 +1,25 @@
+
+/*              TAG SELECTORS                */
+img:hover{                          /*  pseudo class  */
+   background-color:  gold;
+}
+
+h1{
+    color:red;      /* it will be overrided for the first-heading by its id selector */
+}
+
+/*               CLASS SELECTORS              */
+.bacon{
+    background-color: green;
+}
+.broccoli{
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+/*              ID SELECTORS                  */
+#first-heading{
+    color:blue;            /* it will override the class selector( h1{color:red;} ) */
+}
