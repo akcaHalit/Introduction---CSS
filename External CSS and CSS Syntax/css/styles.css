@@ -1,16 +1,11 @@
 /* Syntax =>  Selectors{ property : value; }  */
 
 
-/*               TAG SELECTORS            */
+h1{
+   color : blue;
+}
+
 img{
    background-color:  red;
 }
 
-
-/*               CLASS SELECTORS          */
-.bacon{
-    background-color: green;
-}
-.broccoli{
-    background-color: red;
-}
